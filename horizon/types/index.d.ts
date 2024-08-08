@@ -61,7 +61,14 @@ declare type Account = {
   appwriteItemId: string;
   sharableId: string;
 };
+interface User {
+  firstName: string;
+  lastName: string;
+}
 
+interface SideBarProps {
+  user: User;
+}
 declare type Transaction = {
   id: string;
   $id: string;
@@ -203,7 +210,7 @@ declare interface BankTabItemProps {
 }
 
 declare interface TotlaBalanceBoxProps {
-  accounts: Account[];
+  account: Account[];
   totalBanks: number;
   totalCurrentBalance: number;
 }
