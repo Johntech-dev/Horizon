@@ -22,18 +22,19 @@ const BankCard = ({ account, userName, showBalance = true } : CreditCardProps) =
                 {userName}
                </h1>
                <h2 className='text-12 font-semibold text-white'>
-                ** / **
+               ●● / ●●
                </h2>
              </div>
-             <p className='text-white text-14 font-semibold tracking-[1.1px]'>
-                  **** **** **** <span className='text-16'>${account.mask}</span>
+             <p className='text-white text-14 font-semibold tracking-[1.1px]'> 
+             ●●●● ●●●● ●●●● <span className='text-16'>1234</span>
              </p>
                </article>
             </div>
             <div className='bank-card_icon'>
-               <Image src="icons/Paypass.svg" width={20} height={20} alt='icon' />
-               <Image src="icons/mastercard.svg" width={20} height={20} alt='mastercard' />
+               <Image src="/icons/Paypass.svg" width={20} height={20} alt='icon' />
+               <Image src="/icons/mastercard.svg" width={45} height={32} alt='mastercard' />
             </div>
+            <Image src="/icons/lines.png" width={316} height={190} alt='lines' className='absolute top-0 left-0' />
        </Link>
     </div>
   )

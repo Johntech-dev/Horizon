@@ -230,7 +230,7 @@
   }
 
   .bank-card_icon {
-    @apply flex size-full flex-1 flex-col items-end justify-between rounded-r-[20px] bg-bank-gradient bg-cover bg-center bg-no-repeat py-5 pr-5;
+    @apply flex size-full flex-col items-end justify-between rounded-r-[20px] bg-bank-gradient bg-cover bg-center bg-no-repeat py-2 pr-10 flex-1;
   }
 
   /* Bank Info */
@@ -276,7 +276,7 @@
 
   /* Auth Form */
   .auth-form {
-    @apply flex min-h-screen w-full max-w-[420px] flex-col justify-center gap-5 py-10 md:gap-8;
+    @apply flex min-h-screen w-full max-w-[420px] flex-col justify-center gap-5 p-0 md:gap-8;
   }
 
   .form-item {
